@@ -31,7 +31,7 @@ public class CustomListTest {
         list.addCity(new City("Estevan", "SK"));
         assertEquals(list.getCount(),listSize + 1);
     }
-
+// From chatgpt, openai, "write a java code for a function that check if my hasCity function is working as expected", 2024-10-25
     @Test
     public void hasCityTest() {
         list = MockCityList();
@@ -41,7 +41,7 @@ public class CustomListTest {
         // Assert the city is present
         assertEquals(true, list.hasCity(city));
     }
-
+    // From chatgpt, openai, "write a java code for a function that check if my DeleteCity function is working as expected", 2024-10-25
     @Test
     public void deleteCityTest() {
         list = MockCityList();
@@ -55,7 +55,7 @@ public class CustomListTest {
         list.deleteCity(city);
         assertEquals(false, list.hasCity(city));
     }
-
+    // From chatgpt, openai, "write a java code for a function that check if my countCity function is working as expected", 2024-10-25
     @Test
     public void countCitiesTest() {
         list = MockCityList();

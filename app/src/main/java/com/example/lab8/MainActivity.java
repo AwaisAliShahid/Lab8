@@ -24,10 +24,15 @@ public class MainActivity extends AppCompatActivity {
         cityDataList = new ArrayList<>();
 
         cityDataList.add(new City("Edmonton","AB"));
-        cityDataList.add(new City("Vancouver","BC"));
+
+        cityDataList.add(new City("Tokyo","Japan"));
+
         cityDataList.add(new City("Toronto","ON"));
-        cityDataList.add(new City("Hamilton","ON"));
+
+        cityDataList.add(new City("Delhi","Punjab"));
+
         cityDataList.add(new City("Calgary","AB"));
+
         cityDataList.add(new City("Waterloo","ON"));
 
 
